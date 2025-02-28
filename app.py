@@ -166,4 +166,3 @@ if st.sidebar.button("🚀 Predict"):
         except requests.exceptions.RequestException as e:
             st.error("⚠ Connection error: Could not reach the prediction service.")
             st.write(f"Exception: {e}")
-
